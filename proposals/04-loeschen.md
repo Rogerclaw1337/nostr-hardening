@@ -35,7 +35,8 @@ executed.
 
 ### 1. Clients: build the coordinate, always
 
-For any event with kind ≥ 30000, the deletion MUST carry `a = <kind>:<pubkey>:<d>`.
+For any event in the parameterised-replaceable range (30000–39999), the deletion MUST
+carry `a = <kind>:<pubkey>:<d>`.
 Recommended, and cheap: also add `k` tags so a relay can route without parsing ids.
 `deleting.deletion_covers()` exists to test this on the client side before sending.
 

@@ -36,9 +36,9 @@ Result: **5–6 of 10 relays accepted, 4 of 10 answered nothing at all** (damus
 answered in one of three runs), **1 accepted and never served the event** — a false
 success, verified by re-checking after several minutes.
 
-The false success is the whole point: a client that publishes to ten relays and
-reads ten positive answers has, in this sample, **four to five real copies** — and
-no way to tell which five.
+The false success is the whole point: a client that publishes to ten relays and treats
+silence as success believes it holds ten copies. In this sample it held **four to
+five** — and had no way to tell which.
 
 ## Proposal
 

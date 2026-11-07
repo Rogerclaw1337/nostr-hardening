@@ -41,7 +41,8 @@ description, 8 because the invoice carries no description hash at all.
 Self-control of the decoder: if the BOLT11 parser were wrong, the `preimage` would
 never match the parsed `payment_hash`. It matches for 63 of 112 receipts, which is
 the strongest available evidence that the decoding is correct — and it also shows
-that 49 receipts genuinely lack a preimage, since the same code proves the others.
+that the other 49 carry no preimage at all (ten of those no invoice either), since the
+same code proves the first group.
 
 A note on that decoder: the first version applied the wrong unit factors (a `u`
 invoice is 100,000 msat, not 100,000,000), which inflated every amount by 1000.
