@@ -16,14 +16,24 @@ against `description_hash`.
 
 Proven value: 15,215 sats, median 21 sats, largest 10,000 sats.
 
-**The dominant reason is a missing `preimage`** — 49 of 112. Those payments may well have
-happened; nothing in the receipt proves it. A client that counts receipts as "zaps
-received" therefore counts a mix of settled payments and claims.
+**In 49 of the 112 receipts there is no `preimage` at all** — and ten of those do not
+even carry a `bolt11` invoice. Those payments may well have happened; nothing in the
+receipt proves it. A client that counts receipts as "zaps received" therefore counts a
+mix of settled payments and claims.
 
 The second reason is more subtle and worth stating in the NIP: even when the payment is
-proven, the *purpose* often is not. `sha256(description)` failed to match the invoice's
-`description_hash` in 24 cases, because clients re-serialise the zap request instead of
-storing the exact string that was hashed. The proof survives; the "what for" does not.
+proven, the *purpose* often is not. Of the 102 receipts that carry both a description and a `bolt11` invoice,
+**70 hash correctly and 32 do not**. Two different causes:
+
+* **24** carry a `description_hash` in the invoice that no longer matches — clients
+  re-serialise the zap request instead of storing the exact string that was hashed;
+* **8** have no description hash in the invoice at all — a different construction, not
+  a serialisation problem.
+
+The proof survives; the "what for" does not.
+
+(For completeness: the 9 receipts without a `description` tag are a subset of the 10
+that carry no `bolt11` at all, so those two counts do not add up.)
 
 Suggestion, in the spirit of this thread: treat the two as separate statements —
 `paid` (preimage → payment_hash, hard) and `purpose-bound` (description → description_hash,

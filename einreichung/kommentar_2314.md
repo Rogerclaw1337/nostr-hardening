@@ -3,7 +3,7 @@ Measured data that supports this direction, from eight public relays (7 November
 **None of the eight declares a retention horizon in NIP-11** — no `retention` field, no
 equivalent under `limitation`. Eight out of eight say nothing.
 
-A probe in six age steps (7/30/90/180/365/730/1825 days, "is there any kind-1 event older
+A probe in seven age steps (7/30/90/180/365/730/1825 days, "is there any kind-1 event older
 than this?") gave:
 
 | Relay | declared | oldest sample |

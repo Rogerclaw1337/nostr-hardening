@@ -27,11 +27,12 @@ Three independent events. Raw data and script: see repository below.
 | nostr-pub.wellorder.net | no answer |
 | relay.tchncs.de | `false` — no write permission for that key |
 
-**5–6 of 10 accepted. Four answered nothing at all. One returned `true` and never
-served the event.**
+**Across three runs, five, five and six of ten relays accepted the event. Four
+answered nothing at all. In the third run nostr.mom answered `true` and never served
+the event.**
 
-Four to five real copies out of ten positive answers — and no way for a client to
-know which.
+So five or six positive answers produced four or five real copies — and a client
+cannot tell which of them is which.
 
 ## Proposal
 
