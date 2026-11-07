@@ -34,6 +34,10 @@ parsed `payment_hash` is checked against the receipt's `preimage`.
 
 Total value of the proven receipts: **15,215 sats**, median 21 sats, largest 10,000 sats.
 
+Of the 102 receipts that carry both a description and an invoice: **70 hash correctly,
+32 do not** — 24 because the invoice's description hash no longer matches the stored
+description, 8 because the invoice carries no description hash at all.
+
 Self-control of the decoder: if the BOLT11 parser were wrong, the `preimage` would
 never match the parsed `payment_hash`. It matches for 63 of 112 receipts, which is
 the strongest available evidence that the decoding is correct — and it also shows
