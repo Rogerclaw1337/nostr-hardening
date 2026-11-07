@@ -27,9 +27,9 @@ danach `REQ {"ids":[…]}`. Drei unabhängige Events.
 | nostr-pub.wellorder.net | keine Antwort |
 | relay.tchncs.de | `false` — keine Schreibrechte für diesen Schlüssel |
 
-**Ergebnis:** 5–6 von 10 angenommen, 4–5 antworten gar nicht, **1 Fake-OK**
-nachgewiesen. Wer auf fünf Relais veröffentlicht und „success" liest, hat real
-zwei bis vier Kopien.
+**Ergebnis:** 5–6 von 10 angenommen, 4 von 10 antworten gar nicht (damus in einem
+von drei Läufen doch), **1 Fake-OK** nachgewiesen. Wer auf zehn Relais
+veröffentlicht und zehn positive Antworten liest, hat real vier bis fünf Kopien.
 
 **Grenze der Messung:** „keine Antwort" ist kein Beweis für Ablehnung — es kann
 auch an Cloudflare, Rate-Limits oder einem langsamen Relais liegen. Deshalb steht
@@ -110,8 +110,10 @@ NIP-09-Löschung mit `e`, `a` und `k` posten, warten, erneut prüfen.
 Minuten später erneut geprüft: nos.lol und nostr.mom hatten gelöscht,
 primal.net lieferte beide Ziele weiterhin per ID aus.
 
-**Ergebnis:** Löschen funktioniert dort, wo das Event lag — außer auf einem von
-drei Relais. Der Autor erfährt davon nichts.
+**Ergebnis:** Von den Relais, die das Ziel überhaupt ausgeliefert hatten, löschten
+alle außer einem — auf primal.net blieb es abrufbar. Beim Longform hielten also
+eines von drei Relais das gelöschte Event weiter, bei der Notiz eines von zwei.
+Der Autor erfährt davon nichts.
 
 ---
 

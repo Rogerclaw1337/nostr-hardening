@@ -32,13 +32,13 @@ Three independent events. Reproduce with `qa/messung_zustellung.py`.
 | nostr-pub.wellorder.net | no answer |
 | relay.tchncs.de | `false` — `public key does not have permission to write` |
 
-Result: **5–6 of 10 relays accepted, 4–5 answered nothing at all, 1 accepted and
-never served the event** — a false success, verified by re-checking after several
-minutes.
+Result: **5–6 of 10 relays accepted, 4 of 10 answered nothing at all** (damus
+answered in one of three runs), **1 accepted and never served the event** — a false
+success, verified by re-checking after several minutes.
 
-The false success is the whole point: a client that publishes to five relays for
-redundancy has, in this sample, between two and four real copies, and no way to
-tell which is which.
+The false success is the whole point: a client that publishes to ten relays and
+reads ten positive answers has, in this sample, **four to five real copies** — and
+no way to tell which five.
 
 ## Proposal
 
