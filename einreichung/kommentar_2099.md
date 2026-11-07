@@ -11,7 +11,7 @@ deletion built with `e`, `a` and `k` tags, wait, then re-check every relay by id
 
 Re-checked minutes later: every relay that had held a copy dropped it — ditto.pub in both
 cases, nos.lol for the article — **except primal.net**, which still returned both
-`e`-addressed targets by id. (nos.lol and nostr.mom had never held a copy of the note to
+targets when queried by id. (nos.lol and nostr.mom had never held a copy of the note to
 begin with.)
 
 Two observations that might be worth a MUST:

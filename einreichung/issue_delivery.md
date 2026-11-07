@@ -27,6 +27,10 @@ Three independent events. Raw data and script: see repository below.
 | nostr-pub.wellorder.net | no answer |
 | relay.tchncs.de | `false` — no write permission for that key |
 
+The table shows one state per relay. Because the three runs differed (damus answered in
+one of them), the per-run totals are given in the text below rather than inferred from
+the table.
+
 **Across three runs, five, five and six of ten relays accepted the event. Four
 answered nothing at all. In the third run nostr.mom answered `true` and never served
 the event.**

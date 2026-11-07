@@ -25,7 +25,7 @@ wait, then re-check every relay. Code: `qa/messung_loeschen.py`.
 
 Re-checked several minutes later: every relay that had held a copy dropped it —
 ditto.pub in both cases, nos.lol for the article — except primal.net, which still
-returned both targets by id. (nos.lol and nostr.mom had never held a copy of the note.)
+returned both targets when queried by id. (nos.lol and nostr.mom had never held a copy of the note.)
 
 So: **deletion worked on the relays that had it, except one** — and the author has
 no way to know which. A deletion event that is accepted is not a deletion that is
