@@ -19,7 +19,42 @@ Die ausführlichen Vorschläge liegen in `proposals/`, jede Datei nennt die
 bestehenden GitHub-Threads, an die sie anschließt (nicht Duplikate, sondern
 Fortsetzungen: #2496, #2314, #1902, #556, #2099, #938, primal#233).
 
-## Benutzung
+## Benutzung als Werkzeug
+
+Die fünf Punkte sind auch als Kommandozeile nutzbar — das ist der Teil, der im Alltag
+zählt:
+
+```bash
+export PYTHONPATH=/opt/data/nostr-hardening/src
+PY=/opt/data/nd2/bin/python
+
+# Wo liegt dieses Event noch? (beantwortet den Fake-OK-Fall)
+$PY -m nostrhard audit <event-id>
+
+# Was deklariert ein Relais, wie weit zurück liefert es?
+$PY -m nostrhard relay wss://nos.lol
+
+# Text senden und Zustellung prüfen
+$PY -m nostrhard publish text.txt --quorum 2
+
+# Zap-Belege prüfen
+$PY -m nostrhard zap --stichprobe 50
+
+# Medien-Tags bauen (Notiz oder Langform)
+$PY -m nostrhard media https://beispiel/video.mp4 --langform
+```
+
+Beispielausgabe von `audit` zu einem Event, bei dem ein Relais `OK true` gab und es
+danach nie auslieferte:
+
+```
+fehlt  wss://nostr.mom
+da     wss://nos.lol
+da     wss://relay.primal.net
+2 von 3 Relais liefern das Event.
+```
+
+## Benutzung als Bibliothek
 
 ```bash
 export PYTHONPATH=/opt/data/nostr-hardening/src
