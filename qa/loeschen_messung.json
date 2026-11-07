@@ -1,0 +1,146 @@
+{
+  "zeit": "2026-11-07T17:16:26+0100",
+  "faelle": [
+    {
+      "fall": "notiz",
+      "ziel_id": "75a3c2c1a2591d4a7f9b894d4ebfd860622748d1186a51c7acc4e870c3175b6a",
+      "kind": 1,
+      "gepostet": [
+        {
+          "relay": "wss://relay.primal.net",
+          "accepted": true,
+          "retrievable": true
+        },
+        {
+          "relay": "wss://nos.lol",
+          "accepted": null,
+          "retrievable": null
+        },
+        {
+          "relay": "wss://nostr.mom",
+          "accepted": true,
+          "retrievable": false
+        },
+        {
+          "relay": "wss://relay.ditto.pub",
+          "accepted": true,
+          "retrievable": true
+        }
+      ],
+      "vorher_abrufbar": [
+        "wss://relay.primal.net",
+        "wss://relay.ditto.pub"
+      ],
+      "loesch_event": "1d5067f7de3dde0891153e83d2a26d5362d6adf3e54a9ee6cb43eefffe38b6e3",
+      "loesch_tags": [
+        [
+          "e",
+          "75a3c2c1a2591d4a7f9b894d4ebfd860622748d1186a51c7acc4e870c3175b6a"
+        ],
+        [
+          "k",
+          "1"
+        ]
+      ],
+      "loesch_gepostet": [
+        {
+          "relay": "wss://relay.primal.net",
+          "accepted": null,
+          "retrievable": null
+        },
+        {
+          "relay": "wss://nos.lol",
+          "accepted": null,
+          "retrievable": null
+        },
+        {
+          "relay": "wss://nostr.mom",
+          "accepted": true,
+          "retrievable": false
+        },
+        {
+          "relay": "wss://relay.ditto.pub",
+          "accepted": true,
+          "retrievable": true
+        }
+      ],
+      "nachher_abrufbar": [
+        "wss://relay.primal.net"
+      ],
+      "wirksam": false
+    },
+    {
+      "fall": "longform",
+      "ziel_id": "f61ac6a716b7c5df0190a2a06a7589bb8f87914b6d44f13300a210f87259791f",
+      "kind": 30023,
+      "gepostet": [
+        {
+          "relay": "wss://relay.primal.net",
+          "accepted": true,
+          "retrievable": true
+        },
+        {
+          "relay": "wss://nos.lol",
+          "accepted": null,
+          "retrievable": null
+        },
+        {
+          "relay": "wss://nostr.mom",
+          "accepted": true,
+          "retrievable": false
+        },
+        {
+          "relay": "wss://relay.ditto.pub",
+          "accepted": true,
+          "retrievable": true
+        }
+      ],
+      "vorher_abrufbar": [
+        "wss://relay.primal.net",
+        "wss://nos.lol",
+        "wss://relay.ditto.pub"
+      ],
+      "loesch_event": "4efdb018d17c45d99bcdea2ac54bce772457c8f34ef156f7b819a81b07968c37",
+      "loesch_tags": [
+        [
+          "e",
+          "f61ac6a716b7c5df0190a2a06a7589bb8f87914b6d44f13300a210f87259791f"
+        ],
+        [
+          "a",
+          "30023:dbe5a4eabae172759050bddc37facdd839757df34ccd82c02cf6a778b5a414d3:delete-test-2c3e30cb"
+        ],
+        [
+          "k",
+          "30023"
+        ]
+      ],
+      "loesch_gepostet": [
+        {
+          "relay": "wss://relay.primal.net",
+          "accepted": null,
+          "retrievable": null
+        },
+        {
+          "relay": "wss://nos.lol",
+          "accepted": true,
+          "retrievable": true
+        },
+        {
+          "relay": "wss://nostr.mom",
+          "accepted": true,
+          "retrievable": false
+        },
+        {
+          "relay": "wss://relay.ditto.pub",
+          "accepted": true,
+          "retrievable": true
+        }
+      ],
+      "nachher_abrufbar": [
+        "wss://relay.primal.net"
+      ],
+      "wirksam": false
+    }
+  ]
+}

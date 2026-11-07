@@ -1,0 +1,139 @@
+{
+  "zeit": "2026-11-07T17:12:54+0100",
+  "settle_seconds": 4.0,
+  "pubkey": "dbe5a4eabae172759050bddc37facdd839757df34ccd82c02cf6a778b5a414d3",
+  "laeufe": [
+    {
+      "event": {
+        "id": "367a9ae8dd3ca9145cd2c3cef48246c611c34670035ec636285b70d86d7d447e",
+        "pubkey": "dbe5a4eabae172759050bddc37facdd839757df34ccd82c02cf6a778b5a414d3",
+        "created_at": 1794067959,
+        "kind": 1,
+        "tags": [],
+        "content": "delivery audit 5cd2954211a5",
+        "sig": "4a628f192133553bf0ea4be1ac997752a3e88ef4134c8fdaebc45ce93aa7db9aa5a8b642d67704680c6f66ac5971f5476ad1acddaf2eebf1fef60a9c00c61a2b"
+      },
+      "summary": {
+        "event_id": "367a9ae8dd3ca9145cd2c3cef48246c611c34670035ec636285b70d86d7d447e",
+        "relays": 10,
+        "accepted": 4,
+        "retrievable": 4,
+        "false_success": 0,
+        "false_success_rate": 0.0,
+        "no_answer": 5
+      },
+      "results": [
+        {
+          "relay": "wss://relay.damus.io",
+          "accepted": null,
+          "message": "",
+          "prefix": "",
+          "latency_ms": null,
+          "retrievable": null,
+          "roundtrip_ms": null,
+          "false_success": false,
+          "note": "wss://relay.damus.io: InvalidStatus: server rejected WebSocket connection: HTTP 503"
+        },
+        {
+          "relay": "wss://nos.lol",
+          "accepted": null,
+          "message": "",
+          "prefix": "",
+          "latency_ms": null,
+          "retrievable": null,
+          "roundtrip_ms": null,
+          "false_success": false,
+          "note": "kein OK innerhalb des Zeitlimits"
+        },
+        {
+          "relay": "wss://relay.primal.net",
+          "accepted": true,
+          "message": "",
+          "prefix": "",
+          "latency_ms": 2401,
+          "retrievable": true,
+          "roundtrip_ms": 18,
+          "false_success": false,
+          "note": ""
+        },
+        {
+          "relay": "wss://relay.ditto.pub",
+          "accepted": true,
+          "message": "",
+          "prefix": "",
+          "latency_ms": 1173,
+          "retrievable": true,
+          "roundtrip_ms": 161,
+          "false_success": false,
+          "note": ""
+        },
+        {
+          "relay": "wss://relay.dreamith.to",
+          "accepted": null,
+          "message": "",
+          "prefix": "",
+          "latency_ms": null,
+          "retrievable": null,
+          "roundtrip_ms": null,
+          "false_success": false,
+          "note": "kein OK innerhalb des Zeitlimits"
+        },
+        {
+          "relay": "wss://relay.snort.social",
+          "accepted": true,
+          "message": "",
+          "prefix": "",
+          "latency_ms": 174,
+          "retrievable": true,
+          "roundtrip_ms": 34,
+          "false_success": false,
+          "note": ""
+        },
+        {
+          "relay": "wss://relay.tchncs.de",
+          "accepted": false,
+          "message": "public key does not have permission to write to relay",
+          "prefix": "",
+          "latency_ms": 210,
+          "retrievable": null,
+          "roundtrip_ms": null,
+          "false_success": false,
+          "note": ""
+        },
+        {
+          "relay": "wss://nostr.mom",
+          "accepted": true,
+          "message": "",
+          "prefix": "",
+          "latency_ms": 107,
+          "retrievable": true,
+          "roundtrip_ms": 16,
+          "false_success": false,
+          "note": ""
+        },
+        {
+          "relay": "wss://relay.nostr.band",
+          "accepted": null,
+          "message": "",
+          "prefix": "",
+          "latency_ms": null,
+          "retrievable": null,
+          "roundtrip_ms": null,
+          "false_success": false,
+          "note": "wss://relay.nostr.band: TimeoutError: "
+        },
+        {
+          "relay": "wss://nostr-pub.wellorder.net",
+          "accepted": null,
+          "message": "",
+          "prefix": "",
+          "latency_ms": null,
+          "retrievable": null,
+          "roundtrip_ms": null,
+          "false_success": false,
+          "note": "wss://nostr-pub.wellorder.net: InvalidStatus: server rejected WebSocket connection: HTTP 503"
+        }
+      ]
+    }
+  ]
+}

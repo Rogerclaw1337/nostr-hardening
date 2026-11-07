@@ -1,0 +1,1811 @@
+{
+ "zeit": "2026-11-07T17:19:31+0100",
+ "belege": 112,
+ "zahlung_belegt": 63,
+ "zahlung_nicht_belegt": 49,
+ "zweck_gebunden": 70,
+ "sats_belegt": 15215,
+ "details": [
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 10000000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 1021000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 88000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 25000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 40000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 33000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 44000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 22000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 1000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 1000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine description_hash in der Rechnung",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 1000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 50000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 210000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 1000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 321000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "keine description_hash in der Rechnung"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 10000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 11000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 33000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 2100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 42000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 40000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "has_description": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "kein description-Tag (Zap-Request fehlt)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine description_hash in der Rechnung",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 1111000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 10000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 121000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 33000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 3000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 33000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 42000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 33000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 121000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 121000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "keine description_hash in der Rechnung"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 1000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 10000000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 42000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 25000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 144000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 144000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 50000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": null,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": false,
+    "has_p_tag": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine bolt11-Rechnung im Beleg",
+    "keine description_hash in der Rechnung",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 420000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 10000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 10000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 10000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 13000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 13000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 3000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 3000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 33000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "keine description_hash in der Rechnung"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 11000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "keine description_hash in der Rechnung"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 50000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": true,
+   "amount_msat": 100000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": true
+   },
+   "problems": [
+    "keine description_hash in der Rechnung"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 1111000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": false,
+   "amount_msat": 21000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "Zweck nicht kryptografisch gebunden (description neu serialisiert)",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  },
+  {
+   "ok": true,
+   "amount_msat": 800000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "invoice_carries_description_hash": true,
+    "purpose_bound": true,
+    "preimage_matches_invoice": true
+   },
+   "problems": []
+  },
+  {
+   "ok": false,
+   "amount_msat": 69000,
+   "checks": {
+    "kind_9735": true,
+    "has_bolt11": true,
+    "has_p_tag": true,
+    "bolt11_decodes": true,
+    "has_amount": true,
+    "purpose_bound": false,
+    "preimage_matches_invoice": false
+   },
+   "problems": [
+    "keine description_hash in der Rechnung",
+    "kein preimage — Zahlung öffentlich nicht nachweisbar"
+   ]
+  }
+ ]
+}

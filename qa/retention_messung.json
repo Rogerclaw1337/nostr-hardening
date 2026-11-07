@@ -1,0 +1,151 @@
+{
+ "zeit": "2026-11-07T17:19:10+0100",
+ "relais": [
+  {
+   "relay": "wss://relay.primal.net",
+   "oldest_found_days": 730,
+   "steps": {
+    "7": true,
+    "30": true,
+    "90": true,
+    "180": true,
+    "365": true,
+    "730": true,
+    "1825": false
+   },
+   "declared": {
+    "name": "Primal Public Relay",
+    "software": "git+https://github.com/hoytech/strfry.git",
+    "version": "1.1.3",
+    "max_message_length": 1000000,
+    "max_subscriptions": 20,
+    "max_limit": 500
+   }
+  },
+  {
+   "relay": "wss://nos.lol",
+   "oldest_found_days": 730,
+   "steps": {
+    "7": true,
+    "30": true,
+    "90": true,
+    "180": true,
+    "365": true,
+    "730": true,
+    "1825": false
+   },
+   "declared": {
+    "name": "nos.lol",
+    "software": "git+https://github.com/hoytech/strfry.git",
+    "version": "1.1.3",
+    "max_message_length": 131072,
+    "max_subscriptions": 200,
+    "max_limit": 500
+   }
+  },
+  {
+   "relay": "wss://relay.damus.io",
+   "oldest_found_days": null,
+   "steps": {
+    "7": false
+   },
+   "declared": {
+    "name": "damus.io",
+    "software": "git+https://github.com/hoytech/strfry.git",
+    "version": "1.1.0-158-gb705403ddf49",
+    "max_message_length": 1000000,
+    "max_subscriptions": 200,
+    "max_limit": 500
+   }
+  },
+  {
+   "relay": "wss://nostr.mom",
+   "oldest_found_days": 90,
+   "steps": {
+    "7": true,
+    "30": true,
+    "90": true,
+    "180": false
+   },
+   "declared": {
+    "error": "HTTPError: HTTP Error 429: Too Many Requests"
+   }
+  },
+  {
+   "relay": "wss://relay.ditto.pub",
+   "oldest_found_days": 1825,
+   "steps": {
+    "7": true,
+    "30": true,
+    "90": true,
+    "180": true,
+    "365": true,
+    "730": true,
+    "1825": true
+   },
+   "declared": {
+    "name": "Ditto Relay",
+    "software": "https://gitworkshop.dev/soapbox.pub/ditto-relay",
+    "version": "2.5.1",
+    "max_message_length": 4000000,
+    "max_subscriptions": 20,
+    "max_filters": 100,
+    "max_limit": 1000,
+    "max_subid_length": 100,
+    "payment_required": false,
+    "auth_required": false
+   }
+  },
+  {
+   "relay": "wss://relay.nostr.band",
+   "oldest_found_days": null,
+   "steps": {
+    "7": false
+   },
+   "declared": {
+    "error": "URLError: <urlopen error timed out>"
+   }
+  },
+  {
+   "relay": "wss://nostr.wine",
+   "oldest_found_days": 1825,
+   "steps": {
+    "7": true,
+    "30": true,
+    "90": true,
+    "180": true,
+    "365": true,
+    "730": true,
+    "1825": true
+   },
+   "declared": {
+    "name": "nostr.wine",
+    "software": "https://nostr.wine",
+    "version": "0.3.3",
+    "max_message_length": 524288,
+    "max_subscriptions": 50,
+    "max_limit": 1000,
+    "max_subid_length": 71,
+    "payment_required": true,
+    "auth_required": false,
+    "restricted_writes": true,
+    "created_at_lower_limit": 94608000
+   }
+  },
+  {
+   "relay": "wss://relay.snort.social",
+   "oldest_found_days": null,
+   "steps": {
+    "7": false
+   },
+   "declared": {
+    "name": "memlay",
+    "software": "https://github.com/v0l/memlay",
+    "version": "0.2.0",
+    "max_message_length": 524288,
+    "max_subscriptions": 300,
+    "max_limit": 5000
+   }
+  }
+ ]
+}
